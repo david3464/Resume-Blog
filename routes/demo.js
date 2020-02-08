@@ -4,7 +4,7 @@ var router = express.Router();
 //app.use('/demo', blogRouter);
 
 router.get('/01', function(req, res, next) {
-  res.render('Demo_Project/01');
+  res.render('Demo_Project/01Periodic_Table');
 });
 
 router.get('/02', function(req, res, next) {
