@@ -3,18 +3,28 @@ var router = express.Router();
 
 //app.use('/blog', blogRouter);
 
-/* GET home page. */
-router.get('/test', function(req, res, next) {
-  res.render('Index/contact');
-});
-
 router.get('/01', function(req, res, next) {
-  res.render('Index/contact');
+  res.render('Blog/01');
 });
 
 router.get('/02', function(req, res, next) {
-  res.render('Index/contact');
+  res.render('Blog/02');
 });
 
+router.get('/03', function(req, res, next) {
+  res.render('Blog/03');
+});
+
+router.get('/04', function(req, res, next) {
+  res.render('Blog/04');
+});
+
+router.get('/05', function(req, res, next) {
+  res.render('Blog/05');
+});
+
+router.get('/06', function(req, res, next) {
+  res.render('Blog/06');
+});
 
 module.exports = router;
