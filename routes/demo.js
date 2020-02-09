@@ -3,7 +3,7 @@ var router = express.Router();
 
 //app.use('/demo', blogRouter);
 
-router.get('/01', function(req, res, next) {
+router.get('/01Periodic_Table', function(req, res, next) {
   res.render('Demo_Project/01Periodic_Table');
 });
 
