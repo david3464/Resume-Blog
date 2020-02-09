@@ -3,8 +3,10 @@ var router = express.Router();
 
 //app.use('/blog', blogRouter);
 
-router.get('/01', function(req, res, next) {
-  res.render('Blog/01', { layout: 'page_layout/Blog_layout' });
+router.get('/01HotProgrammingin2020', function(req, res, next) {
+  res.render('Blog/01HotProgrammingin2020', {
+    layout: 'page_layout/Blog_layout'
+  });
 });
 
 router.get('/02', function(req, res, next) {
