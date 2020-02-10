@@ -4,16 +4,18 @@ var router = express.Router();
 //app.use('/blog', blogRouter);
 
 router.get('/01_hotprogrammingin2020', function(req, res, next) {
-  res.render('Blog/01HotProgrammingin2020', {
+  res.render('Blog/01_HotProgrammingin2020', {
+    layout: 'page_layout/Blog_layout'
+  });
+});
+
+router.get('/02_2020WebNavigation', function(req, res, next) {
+  res.render('Blog/02_2020WebNavigation', {
     layout: 'page_layout/Blog_layout'
   });
 });
 
 router.get('/02', function(req, res, next) {
-  res.render('Blog/02');
-});
-
-router.get('/03', function(req, res, next) {
   res.render('Blog/03');
 });
 
